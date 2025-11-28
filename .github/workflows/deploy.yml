@@ -1,0 +1,44 @@
+name: Desplegar a VPS
+
+on:
+  push:
+    branches: [ "main" ] # O "master", revisa cómo se llama tu rama principal
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1. Bajar el código
+    - name: Checkout del código
+      uses: actions/checkout@v4
+
+    # 2. Instalar Node.js
+    - name: Instalar Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20' # Angular 18+ funciona mejor con Node 20 o 22
+        cache: 'npm'
+
+    # 3. Instalar dependencias
+    - name: Instalar dependencias
+      run: npm ci
+
+    # 4. Construir el proyecto (Build)
+    - name: Construir proyecto (Build)
+      run: npm run build
+      # Esto generará la carpeta dist/gi2t-web/browser
+
+    # 5. Desplegar al VPS usando Rsync
+    - name: Subir archivos al VPS
+      uses: easingthemes/ssh-deploy@main
+      with:
+        SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+        REMOTE_HOST: ${{ secrets.VPS_HOST }}
+        REMOTE_USER: ${{ secrets.VPS_USER }}
+        # Ruta de origen (La carpeta que creó el build)
+        SOURCE: "dist/grupogi2t-21/browser/"
+        # Ruta de destino en tu VPS (Donde lee Apache)
+        TARGET: "/var/www/html/"
+        # Argumentos para borrar lo viejo y subir lo nuevo
+        ARGS: "-rltgoDzvO --delete"
