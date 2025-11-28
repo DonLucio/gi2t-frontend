@@ -1,5 +1,6 @@
 <div class="container" id="contenido">
   <div class="row py-3">
+
     <div class="col-12 col-md-4 px-sm-5">
       <h1 class="mb-3">
         Presentación Resultados Caracterización Acceso, Uso y Apropiación de las TIC
@@ -21,87 +22,38 @@
         Uno de los logros más significativos del evento fue la identificación de oportunidades clave a corto plazo, acordadas por los participantes, para el avance en la integración de las TIC en la educación:
       </p>
       <ul>
-        <li>
-          Conformación de la Red de Docentes de TI del Distrito de Buenaventura.</li>
-        <li>
-          Continuidad en el Monitoreo de Avances entorno a la TIC dentro de las Instituciones Educativas.
-        </li>
-        <li>
-          Acompañamiento y Liderazgo del Grupo GI2T y la Universidad para integrar efectivamente a la Secretaría de Educación Distrital.
-        </li>
+        <li>Conformación de la Red de Docentes de TI del Distrito de Buenaventura.</li>
+        <li>Continuidad en el Monitoreo de Avances entorno a la TIC dentro de las Instituciones Educativas.</li>
+        <li>Acompañamiento y Liderazgo del Grupo GI2T y la Universidad para integrar efectivamente a la Secretaría de Educación Distrital.</li>
       </ul>
-
     </div>
+
     <div class="col-12 col-md-8 px-sm-5">
+
       <div class="row">
         <div class="col-12 mb-3">
           <div class="embed-responsive ratio ratio-16x9">
-
-            <iframe  class="embed-responsive-item" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/mzLj65SEI0E?si=1lVbTzq94kdWNXG8?autoplay=1&controls=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
+            <iframe class="embed-responsive-item" id="ytplayer" type="text/html"
+                    src="https://www.youtube.com/embed/mzLj65SEI0E?autoplay=0&controls=1&modestbranding=1"
+                    frameborder="0" allowfullscreen>
+            </iframe>
           </div>
         </div>
       </div>
+
       <div class="row">
-        <div class="col-sm-12 col-md-4 mb-2">
-          <a href="assets/photos/apropiacion1/foto11.jpg" data-lightbox="apropiacion">
-            <img src="assets/photos/apropiacion1/360foto11.jpg" class="img-fluid w-100">
-          </a>
-        </div>
-        <div class="col-sm-12 col-md-4 mb-2">
-          <a href="assets/photos/apropiacion1/foto2.jpg" data-lightbox="apropiacion">
-            <img src="assets/photos/apropiacion1/360foto2.jpg" class="img-fluid w-100">
-          </a>
-        </div>
-        <div class="col-sm-12 col-md-4 mb-2">
-          <a href="assets/photos/apropiacion1/foto4.jpg" data-lightbox="apropiacion">
-            <img src="assets/photos/apropiacion1/360foto4.jpg" class="img-fluid w-100">
-          </a>
-        </div>
-        <div class="col-sm-12 col-md-4 mb-2">
-          <a href="assets/photos/apropiacion1/foto1.jpg" data-lightbox="apropiacion">
-            <img src="assets/photos/apropiacion1/360foto1.jpg" class="img-fluid w-100">
-          </a>
-        </div>
-        <div class="col-sm-12 col-md-4 mb-2">
-          <a href="assets/photos/apropiacion1/foto5.jpg" data-lightbox="apropiacion">
-            <img src="assets/photos/apropiacion1/360foto5.jpg" class="img-fluid w-100">
-          </a>
-        </div>
-        <div class="col-sm-12 col-md-4 mb-2">
-          <a href="assets/photos/apropiacion1/foto3.jpg" data-lightbox="apropiacion">
-            <img src="assets/photos/apropiacion1/360foto3.jpg" class="img-fluid w-100">
-          </a>
-        </div>
-        <div class="col-sm-12 col-md-4 mb-2">
-          <a href="assets/photos/apropiacion1/foto6.jpg" data-lightbox="apropiacion">
-            <img src="assets/photos/apropiacion1/360foto6.jpg" class="img-fluid w-100">
-          </a>
-        </div>
-        <div class="col-sm-12 col-md-4 mb-2">
-          <a href="assets/photos/apropiacion1/foto7.jpg" data-lightbox="apropiacion">
-            <img src="assets/photos/apropiacion1/360foto7.jpg" class="img-fluid w-100">
-          </a>
-        </div>
-        <div class="col-sm-12 col-md-4 mb-2">
-          <a href="assets/photos/apropiacion1/foto8.jpg" data-lightbox="apropiacion">
-            <img src="assets/photos/apropiacion1/360foto8.jpg" class="img-fluid w-100">
-          </a>
-        </div>
-        <div class="col-sm-12 col-md-4 mb-2">
-          <a href="assets/photos/apropiacion1/foto10.jpg" data-lightbox="apropiacion">
-            <img src="assets/photos/apropiacion1/360foto10.jpg" class="img-fluid w-100">
-          </a>
-        </div>
+        @for (img of _albums; track $index) {
+          <div class="col-sm-12 col-md-4 mb-2">
+            <img [src]="img.thumb"
+                 (click)="open($index)"
+                 class="img-fluid w-100 shadow-sm rounded"
+                 alt="Foto del evento"
+                 loading="lazy"
+                 style="cursor: pointer; transition: transform 0.2s; object-fit: cover; height: 200px;">
+          </div>
+        }
       </div>
 
-
-
-
-
-
-
-
     </div>
-
   </div>
 </div>

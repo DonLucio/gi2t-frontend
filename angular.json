@@ -30,7 +30,8 @@
               }
             ],
             "styles": [
-              "src/styles.sass"
+              "src/styles.sass",
+              "./node_modules/@pierresh/ngx-lightbox/lightbox.css"
             ],
             "server": "src/main.server.ts",
             "prerender": true,
