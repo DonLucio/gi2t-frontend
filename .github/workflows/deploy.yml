@@ -26,7 +26,21 @@ jobs:
     # 4. Construir el proyecto (Build)
     - name: Construir proyecto (Build)
       run: npm run build
-      # Esto generará la carpeta dist/gi2t-web/browser
+
+    # --- NUEVO PASO: AJUSTAR NOMBRE DE ARCHIVO ---
+    - name: Renombrar index.csr.html a index.html
+      run: |
+        cd dist/grupogi2t-21/browser
+
+        # Verificamos si existe el archivo csr antes de moverlo
+        if [ -f "index.csr.html" ]; then
+          # Lo movemos (renombramos) a index.html.
+          # El flag -f fuerza la sobreescritura si ya existía un index.html
+          mv -f index.csr.html index.html
+          echo "✅ Se renombró index.csr.html a index.html exitosamente."
+        else
+          echo "⚠️ No se encontró index.csr.html, se mantiene el archivo actual."
+        fi
 
     # 5. Desplegar al VPS usando Rsync
     - name: Subir archivos al VPS
