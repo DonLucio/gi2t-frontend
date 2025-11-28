@@ -1,0 +1,104 @@
+<div class="container" id="contenido">
+  @if(vistaDetalle){
+    <div class="row">
+      <section class="col-12 mt-3">
+        <a routerLink="/publicaciones" class="btn btn-sm btn-outline-secondary mb-3">
+          <i class="fa-solid fa-arrow-left"></i> Volver al listado
+        </a>
+
+        <h1 class="m-sm-3">Detalle de la Publicación</h1>
+
+        <div class="d-flex mx-sm-3 mb-3 p-sm-3 media-object">
+          <div class="flex-shrink-0 text-center">
+            <img [src]="'assets/images/publicaciones/doc'+vistaDetalle.id+'.webp'" style="max-width: 150px;"><br>
+
+            <a [href]="vistaDetalle.url" target="_blank" class="text-decoration-none text-primary mt-2 d-inline-block"  style="font-size: 1rem; cursor: pointer;">
+                <i class="fa-solid fa-up-right-from-square"></i> Consultar Recurso
+            </a>
+          </div>
+
+          <div class="flex-grow-1 ms-sm-3 mt-3 mt-sm-0">
+              <h1 class="lh1">{{vistaDetalle.title}}</h1>
+              <p class="lh2">{{vistaDetalle.subtitle}}</p>
+              <p class="date">{{vistaDetalle.date}}</p>
+              @if(vistaDetalle.volumen) {
+                <p>Volumen No. {{vistaDetalle.volumen}}</p>
+              }
+              <p>{{vistaDetalle.text}}</p>
+              <p class="doi">DOI: {{vistaDetalle.doi}}</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  }
+  @if(!vistaDetalle){
+      <div class="row">
+        <section class="col-12 mt-3">
+          <h1 class="m-sm-3">Publicaciones</h1>
+          @for (item of publicaciones; track $index) {
+            <div class="d-flex mx-sm-3 mb-3 p-sm-3 media-object">
+              <div class="flex-shrink-0 text-center">
+                <img [src]="'assets/images/publicaciones/doc'+item.id+'.webp'"><br>
+
+                <a [routerLink]="['/publicaciones', item.id]" class="text-decoration-none text-primary pointer"  style="font-size: 1rem; cursor: pointer;">
+                    <i class="text-primary fa-solid fa-eye"></i>
+                    Ver Detalles
+                </a>
+
+              </div>
+              <div class="flex-grow-1 ms-sm-3 mt-3 mt-sm-0 d-none d-sm-block">
+                  <h1 class="lh1">{{item.title}}</h1>
+                  <p class="lh2">{{item.subtitle}}</p>
+                  <p class="date">{{item.date}}</p>
+                  <p>{{item.text}}</p>
+                  <p class="doi">DOI: {{item.doi}}</p>
+              </div>
+            </div>
+          }
+        </section>
+      </div>
+      <hr>
+      <div class="row">
+          <section class="col-12">
+            <div class="m-sm-3 mb-0 divider" style="margin-bottom: 0 !important;">
+              <p class="boletin">Boletin</p>
+              <p class="insights">Insights</p>
+              <p class="insightsSub">Tecnología, Sociedad y Educación</p>
+            </div>
+            <div class="mx-3 mt-0 mb-3">
+              <p class="p-0 m-0" style="color: rgb(148, 148, 148);">ISSN 3028-5879</p>
+            </div>
+            <div class="boletines mx-3">
+              @for (item of boletines; track item) {
+                <details class="accordion-item" item.estado>
+                  <summary class="accordion-trigger mb-3">
+                    <span class="accordion-title">Edición {{item.edicion}}. {{item.fecha}}</span>
+                    <span class="accordion-icon" aria-hidden="true">&plus;</span>
+                  </summary>
+                  @for (item2 of item.publicaciones; track $index) {
+                    <div class="d-flex mx-sm-3 mb-3 pb-3 media-object">
+                      <div class="flex-shrink-0 text-center">
+                        <a [routerLink]="['/publicaciones', item2.id]" style="cursor: pointer;">
+                          <img [src]="'assets/images/publicaciones/doc'+item2.id+'.webp'">
+                        </a>
+                      </div>
+                      <div class="flex-grow-1 ms-sm-3 mt-3 mt-sm-0 d-none d-sm-block">
+                          <p class="lh1">{{item2.subtitle}}</p>
+                          <h1 class="lh2">{{item2.title}}</h1>
+                          <p class="date">Volumen No. {{item2.volumen}}</p>
+                          <p class="doi">DOI: {{item2.doi}}</p>
+                          <a [routerLink]="['/publicaciones', item2.id]" class="text-decoration-none" style="font-size: 1rem;">
+                            <i class="fa-solid fa-xs fa-eye"></i> Ver Ficha
+                          </a>
+                      </div>
+                    </div>
+                  }
+
+                </details>
+              }
+            </div>
+          </section>
+      </div>
+
+  }
+</div>

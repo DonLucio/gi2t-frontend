@@ -1,0 +1,7 @@
+RewriteEngine On
+# Excluir URLs que terminan en .pdf (o cualquier otra extensión que desees mantener)
+RewriteCond %{REQUEST_URI} !\.(pdf)$
+# Redirige todas las solicitudes a index.html excepto las que comienzan con 'api' o tienen una extensión de archivo
+RewriteCond %{REQUEST_URI} !^/api
+RewriteCond %{REQUEST_URI} !\.(gif|svg|jpe?g|png|css|js|ico|webp)$
+RewriteRule ^ index.html [L]

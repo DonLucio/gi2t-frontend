@@ -1,0 +1,90 @@
+<div class="container" id="contenido">
+    <div class="row">
+        <div class="col-12 col-sm-8 px-sm-5">
+            <div class="d-flex mb-3">
+                <div class="flex-shrink-0">
+                    <img src="assets/images/logoua2.svg" style="width: 160px">
+                </div>
+                <div class="flex-grow-1 ms-3 d-none d-sm-block">
+                    <h1>
+                        Objetivo General del Semillero de Investigación UA2
+                    </h1>
+                </div>
+            </div>
+            <div>
+                    <p>
+                        El objetivo general del semillero de investigación UA2 es contribuir al desarrollo sostenible de las comunidades asentadas en el litoral pacífico colombiano, mediante la caracterización y acciones centradas en el acceso, uso y apropiación de las TIC. Se busca determinar el impacto real de la tecnología en diversos sectores socioeconómicos, con especial énfasis en la mejora de labores productivas y educativas, evaluando si la tecnología utilizada realmente se convierte en un activo que genera valor para las comunidades y grupos étnicos involucrados.
+                    </p>
+                    <h2>Objetivos Específicos del Semillero:</h2>
+                    <ol>
+                        <li>
+                            Realizar un diagnóstico detallado del nivel de acceso a las TIC en distintas comunidades y grupos étnicos del litoral pacífico, identificando brechas y desigualdades para proponer estrategias que promuevan una mayor inclusión digital.
+                        </li>
+                        <li>
+                            Caracterizar el uso y la apropiación de las TIC en las actividades diarias de los sectores socioeconómicos estudiados, incluyendo el análisis de su aplicación en actividades productivas, educativas y otras áreas relevantes.
+                        </li>
+                        <li>
+                            Identificar las necesidades y desafíos específicos que enfrentan las comunidades en cuanto al uso de la tecnología, y proponer soluciones y capacitaciones que optimicen su aprovechamiento.
+                        </li>
+                        <li>
+                            Evaluar el impacto de la tecnología en la mejora de la productividad y eficiencia en actividades económicas locales, destacando casos exitosos y buenas prácticas.
+                        </li>
+                        <li>
+                            Analizar el papel de las TIC en la promoción y acceso a la educación en la región, considerando aspectos como la educación en línea, el acceso a recursos educativos y las plataformas de formación disponibles.
+                        </li>
+                        <li>
+                            Evaluar cómo las TIC facilitan la preservación y promoción de la cultura y tradiciones de los grupos étnicos del litoral pacífico, promoviendo la valorización y protección del patrimonio cultural.
+                        </li>
+                        <li>
+                            Proporcionar recomendaciones y propuestas para el diseño e implementación de políticas públicas orientadas a promover el acceso, uso y apropiación de TIC en el litoral pacífico, de manera inclusiva y sostenible.
+                        </li>
+                        <li>
+                            Fomentar la colaboración interdisciplinaria dentro del semillero, integrando estudiantes, docentes y miembros de diversas disciplinas para enriquecer la investigación y el enfoque de las acciones desarrolladas.
+                        </li>
+                        <li>
+                            Difundir los resultados y hallazgos del semillero mediante publicaciones académicas y divulgación en eventos locales, nacionales e internacionales, con el propósito de generar un impacto positivo en la comunidad científica y en la toma de decisiones políticas.
+                        </li>
+                        <li>
+                            Establecer alianzas y vínculos con otras instituciones de investigación, organizaciones no gubernamentales y entidades del sector público y privado, con el fin de fortalecer la sostenibilidad y continuidad de las acciones y proyectos emprendidos por el semillero de investigación UA2.
+                        </li>
+                    </ol>
+            </div>
+        </div>
+
+
+
+        <div class="d-none d-sm-block col-sm-4 listado  border-start">
+          @for(item of filteredSemilleros; track item) {
+            <div class="d-flex py-1 border-bottom">
+                <div class="flex-shrink-0">
+                    @if(!item.picture) {
+                      <img [src]="'https://placehold.co/60'" class="rounded-circle foto" style="width: 65px">
+                    }
+                    @if(item.picture) {
+                      <img  [src]="'assets/images/'+item.id+'.webp'" class="rounded-circle foto" style="width: 65px">
+                    }
+                </div>
+                <div class="flex-grow-1 ms-2 item">
+                    <h5 class="fw-bold my-0">{{ item.nombre }}</h5>
+                    <p class="text-muted small mb-0">{{ item.email }}</p>
+                    @if(item.social){
+                      <a href="{{item.social}}" target="_blank" class="btn m-0 p-0 btn-link text-decoration-none" style="color: #0a66c2;"><i class="fa-brands fa-linkedin me-1"></i>LinkedIn</a>
+                    }
+
+                </div>
+            </div>
+          }
+            <div class="d-grid mt-2 gap-2">
+              @if(!showAll) {
+                <button (click)="toggleShowAll()" style="background: #61b146; border: 0; color: #003844;">Ver todo</button>
+              }
+              @if(showAll) {
+                <button (click)="toggleShowAll()" style="background: #003844; border: 0; color: #fafafa;">Ver menos</button>
+              }
+            </div>
+        </div>
+
+
+
+    </div>
+</div>
