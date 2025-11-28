@@ -1,0 +1,81 @@
+// Estilo para las miniaturas
+img
+  transition: transform 0.2s
+  &:hover
+    transform: scale(1.03)
+    opacity: 0.9
+
+// Estilo del Lightbox Overlay
+.custom-lightbox-overlay
+  position: fixed
+  top: 0
+  left: 0
+  width: 100vw
+  height: 100vh
+  background-color: rgba(0, 0, 0, 0.9) // Fondo negro oscuro
+  z-index: 9999 // Por encima de todo
+  display: flex
+  align-items: center
+  justify-content: center
+  backdrop-filter: blur(5px) // Efecto borroso bonito
+
+  .image-container
+    max-width: 90%
+    max-height: 90%
+    animation: zoomIn 0.3s ease
+
+    .lightbox-img
+      max-height: 85vh // Que no se salga de la pantalla verticalmente
+      max-width: 100%
+      border-radius: 4px
+      box-shadow: 0 0 20px rgba(0,0,0,0.5)
+
+  // Botones de navegación
+  .nav-btn
+    position: absolute
+    background: none
+    border: none
+    color: white
+    font-size: 2rem
+    padding: 20px
+    cursor: pointer
+    transition: color 0.3s
+
+    &:hover
+      color: #ffc107 // Color dorado o el que uses en tu marca
+
+    &.prev
+      left: 20px
+
+    &.next
+      right: 20px
+
+  .close-btn
+    position: absolute
+    top: 20px
+    right: 30px
+    background: none
+    border: none
+    color: white
+    font-size: 2.5rem
+    cursor: pointer
+    z-index: 10000
+
+// Animación de entrada
+@keyframes zoomIn
+  from
+    transform: scale(0.9)
+    opacity: 0
+  to
+    transform: scale(1)
+    opacity: 1
+
+// Responsivo para móviles
+@media (max-width: 768px)
+  .nav-btn
+    font-size: 1.5rem
+    padding: 10px
+    &.prev
+      left: 5px
+    &.next
+      right: 5px
