@@ -16,7 +16,7 @@ export class Publicaciones implements OnInit{
       'edicion': 1,
       'fecha': 'Noviembre, 2023',
       'estado': 'open',
-      'detalle': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Diseñado con el compromiso de servir como puente entre la investigación y la acción, una publicación para compartir de forma clara y accesible, los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
+      'detalle': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Esta edición ha sido diseñada con el compromiso de servir como puente entre la investigación y la acción, compartiendo de forma clara y accesible los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
       'publicaciones':
       [
         {
@@ -26,7 +26,7 @@ export class Publicaciones implements OnInit{
           'date': 'Boletín 1. Noviembre, 2023',
           'title': 'Insights. Tecnología, Sociedad y Educación',
           'subtitle': 'Institución Educativa Antonio Nariño',
-          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Diseñado con el compromiso de servir como puente entre la investigación y la acción, una publicación para compartir de forma clara y accesible, los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
+          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Esta edición ha sido diseñada con el compromiso de servir como puente entre la investigación y la acción, compartiendo de forma clara y accesible los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
           'doi': '10.5281/zenodo.13830097'
 
         },
@@ -37,7 +37,7 @@ export class Publicaciones implements OnInit{
           'date': 'Boletín 1. Noviembre, 2023',
           'title': 'Insights. Tecnología, Sociedad y Educación',
           'subtitle': 'Institución Educativa Francisco José de Caldas',
-          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Diseñado con el compromiso de servir como puente entre la investigación y la acción, una publicación para compartir de forma clara y accesible, los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
+          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Esta edición ha sido diseñada con el compromiso de servir como puente entre la investigación y la acción, compartiendo de forma clara y accesible los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
           'doi': 'https://doi.org/10.5281/zenodo.13831011'
         },
         {
@@ -47,7 +47,7 @@ export class Publicaciones implements OnInit{
           'date': 'Boletín 1. Noviembre, 2023',
           'title': 'Insights. Tecnología, Sociedad y Educación',
           'subtitle': 'Institución Educativa Técnica Industrial Gerardo Valencia Cano',
-          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Diseñado con el compromiso de servir como puente entre la investigación y la acción, una publicación para compartir de forma clara y accesible, los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
+          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Esta edición ha sido diseñada con el compromiso de servir como puente entre la investigación y la acción, compartiendo de forma clara y accesible los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
           'doi': 'https://doi.org/10.5281/zenodo.13830173'
         },
         {
@@ -57,7 +57,7 @@ export class Publicaciones implements OnInit{
           'date': 'Boletín 1. Noviembre, 2023',
           'title': 'Insights. Tecnología, Sociedad y Educación',
           'subtitle': 'Institución Educativa José María Cabal',
-          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Diseñado con el compromiso de servir como puente entre la investigación y la acción, una publicación para compartir de forma clara y accesible, los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
+          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Esta edición ha sido diseñada con el compromiso de servir como puente entre la investigación y la acción, compartiendo de forma clara y accesible los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
           'doi': 'https://doi.org/10.5281/zenodo.13830227'
         },
         {
@@ -67,7 +67,7 @@ export class Publicaciones implements OnInit{
           'date': 'Boletín 1. Noviembre, 2023',
           'title': 'Insights. Tecnología, Sociedad y Educación',
           'subtitle': 'Institución Educativa José Ramón Bejarano',
-          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Diseñado con el compromiso de servir como puente entre la investigación y la acción, una publicación para compartir de forma clara y accesible, los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
+          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Esta edición ha sido diseñada con el compromiso de servir como puente entre la investigación y la acción, compartiendo de forma clara y accesible los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
           'doi': 'https://doi.org/10.5281/zenodo.13830357'
         },
         {
@@ -77,7 +77,7 @@ export class Publicaciones implements OnInit{
           'date': 'Boletín 1. Noviembre, 2023',
           'title': 'Insights. Tecnología, Sociedad y Educación',
           'subtitle': 'Institución Educativa Juan José Rondón',
-          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Diseñado con el compromiso de servir como puente entre la investigación y la acción, una publicación para compartir de forma clara y accesible, los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
+          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Esta edición ha sido diseñada con el compromiso de servir como puente entre la investigación y la acción, compartiendo de forma clara y accesible los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
           'doi': 'https://doi.org/10.5281/zenodo.13830414'
         },
         {
@@ -87,7 +87,7 @@ export class Publicaciones implements OnInit{
           'date': 'Boletín 1. Noviembre, 2023',
           'title': 'Insights. Tecnología, Sociedad y Educación',
           'subtitle': 'Escuela Normal Superior Juan Ladrilleros',
-          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Diseñado con el compromiso de servir como puente entre la investigación y la acción, una publicación para compartir de forma clara y accesible, los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
+          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Esta edición ha sido diseñada con el compromiso de servir como puente entre la investigación y la acción, compartiendo de forma clara y accesible los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
           'doi': 'https://doi.org/10.5281/zenodo.13830504'
         },
         {
@@ -97,7 +97,7 @@ export class Publicaciones implements OnInit{
           'date': 'Boletín 1. Noviembre, 2023',
           'title': 'Insights. Tecnología, Sociedad y Educación',
           'subtitle': 'Institución Educativa La Anunciación',
-          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Diseñado con el compromiso de servir como puente entre la investigación y la acción, una publicación para compartir de forma clara y accesible, los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
+          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Esta edición ha sido diseñada con el compromiso de servir como puente entre la investigación y la acción, compartiendo de forma clara y accesible los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
           'doi': 'https://doi.org/10.5281/zenodo.13830544'
         },
         {
@@ -107,7 +107,7 @@ export class Publicaciones implements OnInit{
           'date': 'Boletín 1. Noviembre, 2023',
           'title': 'Insights. Tecnología, Sociedad y Educación',
           'subtitle': 'Institución Educativa Las Américas',
-          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Diseñado con el compromiso de servir como puente entre la investigación y la acción, una publicación para compartir de forma clara y accesible, los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
+          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Esta edición ha sido diseñada con el compromiso de servir como puente entre la investigación y la acción, compartiendo de forma clara y accesible los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
           'doi': 'https://doi.org/10.5281/zenodo.13830570'
         },
         {
@@ -117,7 +117,7 @@ export class Publicaciones implements OnInit{
           'date': 'Boletín 1. Noviembre, 2023',
           'title': 'Insights. Tecnología, Sociedad y Educación',
           'subtitle': 'Liceo del Pacífico',
-          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Diseñado con el compromiso de servir como puente entre la investigación y la acción, una publicación para compartir de forma clara y accesible, los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
+          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Esta edición ha sido diseñada con el compromiso de servir como puente entre la investigación y la acción, compartiendo de forma clara y accesible los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
           'doi': 'https://doi.org/10.5281/zenodo.13830592'
         },
         {
@@ -127,7 +127,7 @@ export class Publicaciones implements OnInit{
           'date': 'Boletín 1. Noviembre, 2023',
           'title': 'Insights. Tecnología, Sociedad y Educación',
           'subtitle': 'Institución Educativa Pablo Emilio Carvajal',
-          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Diseñado con el compromiso de servir como puente entre la investigación y la acción, una publicación para compartir de forma clara y accesible, los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
+          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Esta edición ha sido diseñada con el compromiso de servir como puente entre la investigación y la acción, compartiendo de forma clara y accesible los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
           'doi': 'https://doi.org/10.5281/zenodo.13830643'
         },
         {
@@ -137,7 +137,7 @@ export class Publicaciones implements OnInit{
           'date': 'Boletín 1. Noviembre, 2023',
           'title': 'Insights. Tecnología, Sociedad y Educación',
           'subtitle': 'Institución Educativa Pascual de Andagoya',
-          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Diseñado con el compromiso de servir como puente entre la investigación y la acción, una publicación para compartir de forma clara y accesible, los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
+          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Esta edición ha sido diseñada con el compromiso de servir como puente entre la investigación y la acción, compartiendo de forma clara y accesible los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
           'doi': 'https://doi.org/10.5281/zenodo.13830676'
         },
         {
@@ -147,7 +147,7 @@ export class Publicaciones implements OnInit{
           'date': 'Boletín 1. Noviembre, 2023',
           'title': 'Insights. Tecnología, Sociedad y Educación',
           'subtitle': 'Institución Educativa República de Venezuela',
-          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Diseñado con el compromiso de servir como puente entre la investigación y la acción, una publicación para compartir de forma clara y accesible, los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
+          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Esta edición ha sido diseñada con el compromiso de servir como puente entre la investigación y la acción, compartiendo de forma clara y accesible los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
           'doi': 'https://doi.org/10.5281/zenodo.13830904'
         },
         {
@@ -157,7 +157,7 @@ export class Publicaciones implements OnInit{
           'date': 'Boletín 1. Noviembre, 2023',
           'title': 'Insights. Tecnología, Sociedad y Educación',
           'subtitle': 'Institución Educativa San Rafael',
-          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Diseñado con el compromiso de servir como puente entre la investigación y la acción, una publicación para compartir de forma clara y accesible, los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
+          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Esta edición ha sido diseñada con el compromiso de servir como puente entre la investigación y la acción, compartiendo de forma clara y accesible los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
           'doi': 'https://doi.org/10.5281/zenodo.13830918'
         },
         {
@@ -167,7 +167,7 @@ export class Publicaciones implements OnInit{
           'date': 'Boletín 1. Noviembre, 2023',
           'title': 'Insights. Tecnología, Sociedad y Educación',
           'subtitle': 'Institución Educativa San Vicente',
-          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Diseñado con el compromiso de servir como puente entre la investigación y la acción, una publicación para compartir de forma clara y accesible, los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
+          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Esta edición ha sido diseñada con el compromiso de servir como puente entre la investigación y la acción, compartiendo de forma clara y accesible los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
           'doi': 'https://doi.org/10.5281/zenodo.13830938'
         },
         {
@@ -177,7 +177,7 @@ export class Publicaciones implements OnInit{
           'date': 'Boletín 1. Noviembre, 2023',
           'title': 'Insights. Tecnología, Sociedad y Educación',
           'subtitle': 'Institución Educativa Simón Bolívar',
-          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Diseñado con el compromiso de servir como puente entre la investigación y la acción, una publicación para compartir de forma clara y accesible, los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
+          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Esta edición ha sido diseñada con el compromiso de servir como puente entre la investigación y la acción, compartiendo de forma clara y accesible los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
           'doi': 'https://doi.org/10.5281/zenodo.13830957'
         },
         {
@@ -187,7 +187,7 @@ export class Publicaciones implements OnInit{
           'date': 'Boletín 1. Noviembre, 2023',
           'title': 'Insights. Tecnología, Sociedad y Educación',
           'subtitle': 'Institución Educativa Teofílo Roberto Potes',
-          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Diseñado con el compromiso de servir como puente entre la investigación y la acción, una publicación para compartir de forma clara y accesible, los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
+          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Esta edición ha sido diseñada con el compromiso de servir como puente entre la investigación y la acción, compartiendo de forma clara y accesible los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
           'doi': 'https://doi.org/10.5281/zenodo.13830979'
         },
         {
@@ -197,7 +197,7 @@ export class Publicaciones implements OnInit{
           'date': 'Boletín 1. Noviembre, 2023',
           'title': 'Insights. Tecnología, Sociedad y Educación',
           'subtitle': 'Institución Educativa Termarit',
-          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Diseñado con el compromiso de servir como puente entre la investigación y la acción, una publicación para compartir de forma clara y accesible, los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
+          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Esta edición ha sido diseñada con el compromiso de servir como puente entre la investigación y la acción, compartiendo de forma clara y accesible los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
           'doi': 'https://doi.org/10.5281/zenodo.14186457'
         },
       ]
@@ -216,7 +216,7 @@ export class Publicaciones implements OnInit{
           'date': 'Boletín 2. Noviembre, 2024',
           'title': 'Insights. Tecnología, Sociedad y Educación',
           'subtitle': 'Seminario San Buenaventura',
-          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Diseñado con el compromiso de servir como puente entre la investigación y la acción, una publicación para compartir de forma clara y accesible, los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
+          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Esta edición ha sido diseñada con el compromiso de servir como puente entre la investigación y la acción, compartiendo de forma clara y accesible los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
           'doi': '10.5281/zenodo.17470615'
         },
         {
@@ -226,7 +226,7 @@ export class Publicaciones implements OnInit{
           'date': 'Boletín 2. Noviembre, 2024',
           'title': 'Insights. Tecnología, Sociedad y Educación',
           'subtitle': 'Instituto Comercial Del Pacífico',
-          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Diseñado con el compromiso de servir como puente entre la investigación y la acción, una publicación para compartir de forma clara y accesible, los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
+          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Esta edición ha sido diseñada con el compromiso de servir como puente entre la investigación y la acción, compartiendo de forma clara y accesible los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
           'doi': '10.5281/zenodo.15667994'
         },
         {
@@ -236,7 +236,7 @@ export class Publicaciones implements OnInit{
           'date': 'Boletín 2. Noviembre, 2024',
           'title': 'Insights. Tecnología, Sociedad y Educación',
           'subtitle': 'Liceo De Occidente',
-          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Diseñado con el compromiso de servir como puente entre la investigación y la acción, una publicación para compartir de forma clara y accesible, los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
+          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Esta edición ha sido diseñada con el compromiso de servir como puente entre la investigación y la acción, compartiendo de forma clara y accesible los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
           'doi': '10.5281/zenodo.17462055'
         },
         {
@@ -246,7 +246,7 @@ export class Publicaciones implements OnInit{
           'date': 'Boletín 2. Noviembre, 2024',
           'title': 'Insights. Tecnología, Sociedad y Educación',
           'subtitle': 'Instituto Miguel De Cervantes Saavedra',
-          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Diseñado con el compromiso de servir como puente entre la investigación y la acción, una publicación para compartir de forma clara y accesible, los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
+          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Esta edición ha sido diseñada con el compromiso de servir como puente entre la investigación y la acción, compartiendo de forma clara y accesible los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
           'doi': '10.5281/zenodo.17470523'
         },
         {
@@ -256,7 +256,7 @@ export class Publicaciones implements OnInit{
           'date': 'Boletín 2. Noviembre, 2024',
           'title': 'Insights. Tecnología, Sociedad y Educación',
           'subtitle': 'Colegio Naval José Prudencio Padilla',
-          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Diseñado con el compromiso de servir como puente entre la investigación y la acción, una publicación para compartir de forma clara y accesible, los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
+          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Esta edición ha sido diseñada con el compromiso de servir como puente entre la investigación y la acción, compartiendo de forma clara y accesible los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
           'doi': '10.5281/zenodo.17470577'
         },
         {
@@ -266,7 +266,7 @@ export class Publicaciones implements OnInit{
           'date': 'Boletín 2. Noviembre, 2024',
           'title': 'Insights. Tecnología, Sociedad y Educación',
           'subtitle': 'Institución Educativa Teófilo Roberto Potes',
-          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Diseñado con el compromiso de servir como puente entre la investigación y la acción, una publicación para compartir de forma clara y accesible, los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
+          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Esta edición ha sido diseñada con el compromiso de servir como puente entre la investigación y la acción, compartiendo de forma clara y accesible los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
           'doi': '10.5281/zenodo.17470577'
         },
         {
@@ -276,7 +276,7 @@ export class Publicaciones implements OnInit{
           'date': 'Boletín 2. Noviembre, 2024',
           'title': 'Insights. Tecnología, Sociedad y Educación',
           'subtitle': 'Institución Educativa Francisco José De Caldas',
-          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Diseñado con el compromiso de servir como puente entre la investigación y la acción, una publicación para compartir de forma clara y accesible, los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
+          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Esta edición ha sido diseñada con el compromiso de servir como puente entre la investigación y la acción, compartiendo de forma clara y accesible los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
           'doi': '10.5281/zenodo.17470715'
         },
         {
@@ -286,7 +286,7 @@ export class Publicaciones implements OnInit{
           'date': 'Boletín 2. Noviembre, 2024',
           'title': 'Insights. Tecnología, Sociedad y Educación',
           'subtitle': 'Institución Educativa Diocesana Jesús Adolescente',
-          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Diseñado con el compromiso de servir como puente entre la investigación y la acción, una publicación para compartir de forma clara y accesible, los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
+          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Esta edición ha sido diseñada con el compromiso de servir como puente entre la investigación y la acción, compartiendo de forma clara y accesible los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
           'doi': '10.5281/zenodo.17470814'
         },
         {
@@ -296,7 +296,7 @@ export class Publicaciones implements OnInit{
           'date': 'Boletín 2. Noviembre, 2024',
           'title': 'Insights. Tecnología, Sociedad y Educación',
           'subtitle': 'Institución Educativa San Rafael',
-          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Diseñado con el compromiso de servir como puente entre la investigación y la acción, una publicación para compartir de forma clara y accesible, los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
+          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Esta edición ha sido diseñada con el compromiso de servir como puente entre la investigación y la acción, compartiendo de forma clara y accesible los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
           'doi': '10.5281/zenodo.17470888'
         },
         {
@@ -306,7 +306,7 @@ export class Publicaciones implements OnInit{
           'date': 'Boletín 2. Noviembre, 2024',
           'title': 'Insights. Tecnología, Sociedad y Educación',
           'subtitle': 'Institución Educativa José María Cabal',
-          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Diseñado con el compromiso de servir como puente entre la investigación y la acción, una publicación para compartir de forma clara y accesible, los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
+          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Esta edición ha sido diseñada con el compromiso de servir como puente entre la investigación y la acción, compartiendo de forma clara y accesible los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
           'doi': '10.5281/zenodo.17470936'
         },
         {
@@ -316,7 +316,7 @@ export class Publicaciones implements OnInit{
           'date': 'Boletín 2. Noviembre, 2024',
           'title': 'Insights. Tecnología, Sociedad y Educación',
           'subtitle': 'Institución Educativa José Ramón Bejarano',
-          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Diseñado con el compromiso de servir como puente entre la investigación y la acción, una publicación para compartir de forma clara y accesible, los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
+          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Esta edición ha sido diseñada con el compromiso de servir como puente entre la investigación y la acción, compartiendo de forma clara y accesible los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
           'doi': '10.5281/zenodo.17470985'
         },
         {
@@ -326,7 +326,7 @@ export class Publicaciones implements OnInit{
           'date': 'Boletín 2. Noviembre, 2024',
           'title': 'Insights. Tecnología, Sociedad y Educación',
           'subtitle': 'Institución Educativa Juan José Rondón',
-          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Diseñado con el compromiso de servir como puente entre la investigación y la acción, una publicación para compartir de forma clara y accesible, los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
+          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Esta edición ha sido diseñada con el compromiso de servir como puente entre la investigación y la acción, compartiendo de forma clara y accesible los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
           'doi': '10.5281/zenodo.17471042'
         },
         {
@@ -336,7 +336,7 @@ export class Publicaciones implements OnInit{
           'date': 'Boletín 2. Noviembre, 2024',
           'title': 'Insights. Tecnología, Sociedad y Educación',
           'subtitle': 'Institución Educativa La Anunciación',
-          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Diseñado con el compromiso de servir como puente entre la investigación y la acción, una publicación para compartir de forma clara y accesible, los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
+          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Esta edición ha sido diseñada con el compromiso de servir como puente entre la investigación y la acción, compartiendo de forma clara y accesible los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
           'doi': '10.5281/zenodo.17471100'
         },
         {
@@ -346,7 +346,7 @@ export class Publicaciones implements OnInit{
           'date': 'Boletín 2. Noviembre, 2024',
           'title': 'Insights. Tecnología, Sociedad y Educación',
           'subtitle': 'Institución Educativa Las Américas',
-          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Diseñado con el compromiso de servir como puente entre la investigación y la acción, una publicación para compartir de forma clara y accesible, los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
+          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Esta edición ha sido diseñada con el compromiso de servir como puente entre la investigación y la acción, compartiendo de forma clara y accesible los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
           'doi': '10.5281/zenodo.17480385'
         },
         {
@@ -356,7 +356,7 @@ export class Publicaciones implements OnInit{
           'date': 'Boletín 2. Noviembre, 2024',
           'title': 'Insights. Tecnología, Sociedad y Educación',
           'subtitle': 'Institución Educativa Liceo Del Pacífico',
-          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Diseñado con el compromiso de servir como puente entre la investigación y la acción, una publicación para compartir de forma clara y accesible, los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
+          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Esta edición ha sido diseñada con el compromiso de servir como puente entre la investigación y la acción, compartiendo de forma clara y accesible los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
           'doi': '10.5281/zenodo.17480431'
         },
         {
@@ -366,7 +366,7 @@ export class Publicaciones implements OnInit{
           'date': 'Boletín 2. Noviembre, 2024',
           'title': 'Insights. Tecnología, Sociedad y Educación',
           'subtitle': 'Escuela Normal Superior Juan Ladrilleros',
-          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Diseñado con el compromiso de servir como puente entre la investigación y la acción, una publicación para compartir de forma clara y accesible, los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
+          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Esta edición ha sido diseñada con el compromiso de servir como puente entre la investigación y la acción, compartiendo de forma clara y accesible los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
           'doi': '10.5281/zenodo.17606137'
         },
         {
@@ -376,7 +376,7 @@ export class Publicaciones implements OnInit{
           'date': 'Boletín 2. Noviembre, 2024',
           'title': 'Insights. Tecnología, Sociedad y Educación',
           'subtitle': 'Institución Educativa Pablo Emilio Carvajal',
-          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Diseñado con el compromiso de servir como puente entre la investigación y la acción, una publicación para compartir de forma clara y accesible, los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
+          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Esta edición ha sido diseñada con el compromiso de servir como puente entre la investigación y la acción, compartiendo de forma clara y accesible los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
           'doi': '10.5281/zenodo.17480498'
         },
         {
@@ -386,7 +386,7 @@ export class Publicaciones implements OnInit{
           'date': 'Boletín 2. Noviembre, 2024',
           'title': 'Insights. Tecnología, Sociedad y Educación',
           'subtitle': 'Institución Educativa Pascual De Andagoya',
-          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Diseñado con el compromiso de servir como puente entre la investigación y la acción, una publicación para compartir de forma clara y accesible, los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
+          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Esta edición ha sido diseñada con el compromiso de servir como puente entre la investigación y la acción, compartiendo de forma clara y accesible los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
           'doi': '10.5281/zenodo.17480556'
         },
         {
@@ -396,7 +396,7 @@ export class Publicaciones implements OnInit{
           'date': 'Boletín 2. Noviembre, 2024',
           'title': 'Insights. Tecnología, Sociedad y Educación',
           'subtitle': 'Institución Educativa San Vicente',
-          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Diseñado con el compromiso de servir como puente entre la investigación y la acción, una publicación para compartir de forma clara y accesible, los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
+          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Esta edición ha sido diseñada con el compromiso de servir como puente entre la investigación y la acción, compartiendo de forma clara y accesible los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
           'doi': '10.5281/zenodo.17480604'
         },
         {
@@ -406,7 +406,7 @@ export class Publicaciones implements OnInit{
           'date': 'Boletín 2. Noviembre, 2024',
           'title': 'Insights. Tecnología, Sociedad y Educación',
           'subtitle': 'Institución Educativa Técnico Industrial Gerardo Valencia Cano',
-          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Diseñado con el compromiso de servir como puente entre la investigación y la acción, una publicación para compartir de forma clara y accesible, los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
+          'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Esta edición ha sido diseñada con el compromiso de servir como puente entre la investigación y la acción, compartiendo de forma clara y accesible los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
           'doi': '10.5281/zenodo.17480653'
         },
 
@@ -524,15 +524,28 @@ export class Publicaciones implements OnInit{
       // Limpiamos metas viejas y ponemos las nuevas
       this.limpiarMetasAcademicas();
 
+      // 1. Definimos la lógica de la descripción fuera del array
+      const tieneInfoExtra = this.vistaDetalle.volumen && this.vistaDetalle.subtitle;
+
+      // Creamos la frase introductoria (usando interpolación `` para que sea más limpio que los + +)
+      const introduccion = `La publicación de este boletín de ${this.vistaDetalle.subtitle} es un primer paso para acercar la ciencia a nuestra comunidad. `;
+
+      // 2. Decidimos qué contenido usar
+      const contenidoDescripcion = tieneInfoExtra
+        ? introduccion + this.vistaDetalle.text
+        : this.vistaDetalle.text;
+
+      // 3. Insertamos las etiquetas
       this.metaService.addTags([
         { name: 'citation_title', content: this.vistaDetalle.title },
-        { name: 'citation_author', content: 'GI2T' }, // Puedes ajustar esto si tienes campo autor
+        { name: 'citation_author', content: 'Lucio López, G. A., CAICEDO GUERRERO, Y. K., & Rivera Guzmán, S. P.' },
         { name: 'citation_publication_date', content: this.vistaDetalle.date },
-        { name: 'citation_pdf_url', content: this.vistaDetalle.url }, // URL directa al PDF/Recurso
+        { name: 'citation_pdf_url', content: this.vistaDetalle.url },
         { name: 'citation_doi', content: this.vistaDetalle.doi || '' },
-        { name: 'description', content: this.vistaDetalle.subtitle + " " + this.vistaDetalle.text }
-      ]);
 
+        // Aquí usamos la variable ya calculada
+        { name: 'description', content: contenidoDescripcion }
+      ]);
       // JSON-LD específico para Artículo
       this.addJsonLdArticle(this.vistaDetalle);
     }
