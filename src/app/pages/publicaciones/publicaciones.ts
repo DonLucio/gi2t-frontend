@@ -530,7 +530,7 @@ export class Publicaciones implements OnInit{
         { name: 'citation_publication_date', content: this.vistaDetalle.date },
         { name: 'citation_pdf_url', content: this.vistaDetalle.url }, // URL directa al PDF/Recurso
         { name: 'citation_doi', content: this.vistaDetalle.doi || '' },
-        { name: 'description', content: this.vistaDetalle.text }
+        { name: 'description', content: this.vistaDetalle.subtitle + " " + this.vistaDetalle.text }
       ]);
 
       // JSON-LD específico para Artículo
