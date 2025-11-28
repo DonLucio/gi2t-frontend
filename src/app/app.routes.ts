@@ -11,11 +11,11 @@ export const routes: Routes = [
   { path: 'semilleros', component: Semilleros },
   { path: 'investigadores', component: Investigadores },
   { path: 'publicaciones', component: Publicaciones },
-  { path: 'eventos', component: Publicaciones },
+  { path: 'eventos', component: Eventos },
 
   // Ruta de detalle (CRÍTICA para Google Scholar)
   // Al entrar aquí, el servidor generará el meta-tag específico del artículo
-  { path: 'publicaciones/:id', component: Eventos },
+  { path: 'publicaciones/:id', component: Publicaciones },
 
   // Redirección inicial
   //{ path: '**', redirectTo: '/home' }
