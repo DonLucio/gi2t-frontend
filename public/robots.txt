@@ -1,0 +1,20 @@
+# Reglas para todos los robots (Google, Bing, Scholar, etc.)
+User-agent: *
+Allow: /
+
+# Aseguramos explícitamente que puedan leer imágenes y PDFs
+Allow: /assets/
+Allow: /assets/docs/
+Allow: /assets/photos/
+Allow: *.pdf
+Allow: *.jpg
+Allow: *.png
+Allow: *.webp
+
+# Bloquear cosas irrelevantes (opcional, buena práctica)
+Disallow: /admin/
+Disallow: /login/
+
+# MAPA DEL SITIO (¡CRÍTICO!)
+# Cambia 'gi2t.org' por tu dominio real
+Sitemap: https://gi2t.org/sitemap.xml

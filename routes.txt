@@ -1,4 +1,9 @@
+/
+/investigadores
+/semilleros
+/eventos
 /publicaciones
+/publicaciones/1
 /publicaciones/2
 /publicaciones/3
 /publicaciones/4
@@ -36,5 +41,6 @@
 /publicaciones/36
 /publicaciones/37
 /publicaciones/38
+/publicaciones/39
 /publicaciones/100
 /publicaciones/101
