@@ -448,6 +448,23 @@ export class Publicaciones implements OnInit{
     },
   ]
 
+  public softwareProducts = [
+    {
+      'id': 1,
+      'nombre': 'Acua Form',
+      'imagen': 'sof_00.webp',
+      'url': 'https://acua.gi2t.org/',
+      'descripcion': 'Aplicación web para la recolección y gestión de datos de caracterización digital en instituciones educativas del Distrito de Buenaventura. Permite el diligenciamiento de formularios estructurados, seguimiento de respuestas y generación de reportes orientados al análisis de brecha digital.',
+      'version': '1.0.0',
+      'anio': 2026,
+      'tipo': 'Aplicación Web',
+      'estado': 'Activo',
+      'tecnologias': ['Angular', 'Node.js', 'Firebase'],
+      'registro': 'Reg. DNDA – En trámite',
+      'licencia': 'Uso académico – GI2T / Universidad del Pacífico',
+    },
+  ]
+
   vistaDetalle: any = null;
   todosLosItems: any[] = [];
 

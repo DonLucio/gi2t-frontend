@@ -34,7 +34,14 @@
   @if(!vistaDetalle){
       <div class="row">
         <section class="col-12 mt-3">
-          <h1 class="m-sm-3">Publicaciones</h1>
+          <div class="m-sm-3 mb-0 divider" style="margin-bottom: 0 !important;">
+            <p class="pub-label">Producción Editorial</p>
+            <p class="pub-title">Libros</p>
+
+          </div>
+          <div class="mx-3 mt-0 mb-3">
+
+          </div>
           @for (item of publicaciones; track $index) {
             <div class="d-flex mx-sm-3 mb-3 p-sm-3 media-object">
               <div class="flex-shrink-0 text-center">
@@ -98,6 +105,32 @@
               }
             </div>
           </section>
+      </div>
+      <hr>
+      <div class="row">
+        <section class="col-12">
+          <div class="m-sm-3 mb-0 divider" style="margin-bottom: 0 !important;">
+            <p class="sof-label">Software</p>
+            <p class="sof-title">Productos</p>
+          </div>
+          @for (sof of softwareProducts; track sof.id) {
+            <div class="d-flex mx-sm-3 mb-3 p-sm-3 media-object">
+              <div class="flex-shrink-0 text-center">
+                <img [src]="'assets/images/publicaciones/' + sof.imagen" [alt]="sof.nombre" style="width: 160px;"><br>
+                <a [href]="sof.url" target="_blank" rel="noopener" class="text-decoration-none text-primary mt-2 d-inline-block" style="font-size: 1rem; cursor: pointer;">
+                  <i class="fa-solid fa-up-right-from-square"></i> Acceder
+                </a>
+              </div>
+              <div class="flex-grow-1 ms-sm-3 mt-3 mt-sm-0">
+                <h1 class="lh1">{{ sof.nombre }}</h1>
+                <p class="lh2">{{ sof.tipo }} &mdash; v{{ sof.version }} &mdash; {{ sof.anio }}</p>
+                <p class="date">{{ sof.tecnologias.join(' · ') }}</p>
+                <p>{{ sof.descripcion }}</p>
+                <p class="doi">{{ sof.registro }} &nbsp;|&nbsp; {{ sof.licencia }}</p>
+              </div>
+            </div>
+          }
+        </section>
       </div>
 
   }
