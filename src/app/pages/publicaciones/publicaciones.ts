@@ -442,6 +442,7 @@ export class Publicaciones implements OnInit{
       'target': true,
       'date': 'Enero, 2026',
       'title': 'ACUA. Modelo Medición TIC',
+      'subtitle': 'ISBN: 978-628-7738-76-8.',
       'text': 'El modelo ACUA nació como respuesta a las marcadas brechas digitales identificadas en entornos educativos del litoral Pacífico colombiano, en particular en el Distrito de Buenaventura. El Grupo de Investigación e Innovación Tecnológica (GI2T) de la Universidad del Pacífico, enfocado en impulsar el desarrollo regional a través de la tecnología, lideró la conceptualización de este modelo ante la “preocupante desigualdad” en el acceso y uso de TIC evidenciada localmente. Por ejemplo, estudios recientes mostraban que casi la mitad de los estudiantes de Buenaventura carecían de conexión a Internet en sus hogares, quedando rezagados en oportunidades educativas. ',
       'doi': 'https://doi.org/10.5281/zenodo.19062940'
     },
