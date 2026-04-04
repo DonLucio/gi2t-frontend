@@ -436,6 +436,15 @@ export class Publicaciones implements OnInit{
       'text': 'Documento de trabajo, centrado en el uso y acceso de las TIC (Tecnologías de la Información y la Comunicación) entre estudiantes de educación media vocacional en el distrito de Buenaventura, es fruto del esfuerzo conjunto del Grupo de Investigación e Innovación Tecnológica (GI2T). Este estudio se enfoca en caracterizar el acceso y uso de las TIC por parte de los estudiantes de instituciones educativas públicas urbanas de dicho distrito. Durante el último semestre de 2022, con la colaboración de estudiantes del semillero Uso Acceso y Apropiación (UA2) del programa de ingeniería de sistemas, se diseñaron y aplicaron instrumentos de recolección de datos, proporcionando una perspectiva detallada y basada en evidencias sobre la situación actual.',
       'doi': 'https://doi.org/10.5281/zenodo.12754339'
     },
+    {
+      'id': 102,
+      'url': 'https://zenodo.org/records/19062940',
+      'target': true,
+      'date': 'Enero, 2026',
+      'title': 'ACUA. Modelo Medición TIC',
+      'text': 'El modelo ACUA nació como respuesta a las marcadas brechas digitales identificadas en entornos educativos del litoral Pacífico colombiano, en particular en el Distrito de Buenaventura. El Grupo de Investigación e Innovación Tecnológica (GI2T) de la Universidad del Pacífico, enfocado en impulsar el desarrollo regional a través de la tecnología, lideró la conceptualización de este modelo ante la “preocupante desigualdad” en el acceso y uso de TIC evidenciada localmente. Por ejemplo, estudios recientes mostraban que casi la mitad de los estudiantes de Buenaventura carecían de conexión a Internet en sus hogares, quedando rezagados en oportunidades educativas. ',
+      'doi': 'https://doi.org/10.5281/zenodo.19062940'
+    },
   ]
 
   vistaDetalle: any = null;

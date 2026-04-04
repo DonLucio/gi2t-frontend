@@ -44,3 +44,4 @@
 /publicaciones/39
 /publicaciones/100
 /publicaciones/101
+/publicaciones/102
