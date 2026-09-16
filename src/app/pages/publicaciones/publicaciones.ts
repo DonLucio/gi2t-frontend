@@ -262,27 +262,27 @@ export class Publicaciones implements OnInit{
         {
           'id': 25,
           'volumen': 6,
-          'url': 'https://doi.org/10.5281/zenodo.17470577',
+          'url': 'https://doi.org/10.5281/zenodo.17470715',
           'date': 'Boletín 2. Noviembre, 2024',
           'title': 'Insights. Tecnología, Sociedad y Educación',
           'subtitle': 'Institución Educativa Teófilo Roberto Potes',
           'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Esta edición ha sido diseñada con el compromiso de servir como puente entre la investigación y la acción, compartiendo de forma clara y accesible los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
-          'doi': '10.5281/zenodo.17470577'
+          'doi': '10.5281/zenodo.17470715'
         },
         {
           'id': 26,
           'volumen': 7,
-          'url': 'https://doi.org/10.5281/zenodo.17470715',
+          'url': 'https://doi.org/10.5281/zenodo.17470642',
           'date': 'Boletín 2. Noviembre, 2024',
           'title': 'Insights. Tecnología, Sociedad y Educación',
           'subtitle': 'Institución Educativa Francisco José De Caldas',
           'text': 'En un mundo en constante evolución tecnológica y social, el acceso y la apropiación de las TIC juegan un papel crucial en la construcción de sociedades más informadas, inclusivas y resilientes. Esta edición ha sido diseñada con el compromiso de servir como puente entre la investigación y la acción, compartiendo de forma clara y accesible los avances más recientes de nuestros proyectos en el Grupo de Investigación e Innovación en TIC (GI2T).',
-          'doi': '10.5281/zenodo.17470715'
+          'doi': '10.5281/zenodo.17470642'
         },
         {
           'id': 27,
           'volumen': 8,
-          'url': ' https://doi.org/10.5281/zenodo.17470814',
+          'url': 'https://doi.org/10.5281/zenodo.17470814',
           'date': 'Boletín 2. Noviembre, 2024',
           'title': 'Insights. Tecnología, Sociedad y Educación',
           'subtitle': 'Institución Educativa Diocesana Jesús Adolescente',
