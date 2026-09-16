@@ -451,7 +451,7 @@ export class Publicaciones implements OnInit{
   public softwareProducts = [
     {
       'id': 1,
-      'nombre': 'Acua Form',
+      'nombre': 'ACUA DASHBOARD',
       'imagen': 'sof_00.webp',
       'url': 'https://acua.gi2t.org/',
       'descripcion': 'Aplicación web para la recolección y gestión de datos de caracterización digital en instituciones educativas del Distrito de Buenaventura. Permite el diligenciamiento de formularios estructurados, seguimiento de respuestas y generación de reportes orientados al análisis de brecha digital.',
@@ -460,8 +460,26 @@ export class Publicaciones implements OnInit{
       'tipo': 'Aplicación Web',
       'estado': 'Activo',
       'tecnologias': ['Angular', 'Node.js', 'Firebase'],
-      'registro': 'Reg. DNDA – En trámite',
+      'registro': 'Registro DNDA: 13-109-404',
       'licencia': 'Uso académico – GI2T / Universidad del Pacífico',
+    },
+    {
+      'id': 2,
+      'nombre': 'EMOCIOAPP',
+      'descripcion': 'Producto de software registrado ante la Dirección Nacional de Derecho de Autor de Colombia.',
+      'anio': 2023,
+      'tipo': 'Software',
+      'registro': 'Registro DNDA: 13-95-449',
+      'licencia': 'Registro de software',
+    },
+    {
+      'id': 3,
+      'nombre': 'MANDANGA',
+      'descripcion': 'Producto de software publicado y registrado ante la Dirección Nacional de Derecho de Autor de Colombia.',
+      'anio': 2007,
+      'tipo': 'Software',
+      'registro': 'Registro DNDA: 13-22-462',
+      'licencia': 'Registro de software',
     },
   ]
 
@@ -517,7 +535,7 @@ export class Publicaciones implements OnInit{
     };
 
     script.text = JSON.stringify(jsonLd);
-    this.renderer2.appendChild(document.head, script);
+    this.renderer2.appendChild(this._document.head, script);
   }
 
   private unificarDatos() {
@@ -606,12 +624,24 @@ export class Publicaciones implements OnInit{
     const jsonLd = {
       "@context": "https://schema.org",
       "@type": "ItemList",
-      "itemListElement": this.publicaciones.map((item, index) => ({
+      "itemListElement": [
+        ...this.publicaciones.map((item, index) => ({
         "@type": "CreativeWork",
         "position": index + 1,
         "name": item.title,
         "url": `https://gi2t.org/publicaciones/${item.id}` // Importante: URL interna
-      }))
+        })),
+        ...this.softwareProducts.map((item, index) => ({
+          "@type": "SoftwareApplication",
+          "position": this.publicaciones.length + index + 1,
+          "name": item.nombre,
+          "description": item.descripcion,
+          "datePublished": String(item.anio),
+          "applicationCategory": item.tipo,
+          "identifier": item.registro,
+          ...(item.url ? { "url": item.url } : {})
+        }))
+      ]
     };
 
     script.text = JSON.stringify(jsonLd);

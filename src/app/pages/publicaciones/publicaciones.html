@@ -116,15 +116,29 @@
           @for (sof of softwareProducts; track sof.id) {
             <div class="d-flex mx-sm-3 mb-3 p-sm-3 media-object">
               <div class="flex-shrink-0 text-center">
-                <img [src]="'assets/images/publicaciones/' + sof.imagen" [alt]="sof.nombre" style="width: 160px;"><br>
-                <a [href]="sof.url" target="_blank" rel="noopener" class="text-decoration-none text-primary mt-2 d-inline-block" style="font-size: 1rem; cursor: pointer;">
-                  <i class="fa-solid fa-up-right-from-square"></i> Acceder
-                </a>
+                @if (sof.imagen) {
+                  <img [src]="'assets/images/publicaciones/' + sof.imagen" [alt]="sof.nombre" style="width: 160px;"><br>
+                } @else {
+                  <div class="software-placeholder" role="img" [attr.aria-label]="'Software ' + sof.nombre">
+                    <i class="fa-solid fa-code"></i>
+                  </div>
+                }
+                @if (sof.url) {
+                  <a [href]="sof.url" target="_blank" rel="noopener" class="text-decoration-none text-primary mt-2 d-inline-block" style="font-size: 1rem; cursor: pointer;">
+                    <i class="fa-solid fa-up-right-from-square"></i> Acceder
+                  </a>
+                }
               </div>
               <div class="flex-grow-1 ms-sm-3 mt-3 mt-sm-0">
                 <h1 class="lh1">{{ sof.nombre }}</h1>
-                <p class="lh2">{{ sof.tipo }} &mdash; v{{ sof.version }} &mdash; {{ sof.anio }}</p>
-                <p class="date">{{ sof.tecnologias.join(' · ') }}</p>
+                <p class="lh2">
+                  {{ sof.tipo }}
+                  @if (sof.version) { &mdash; v{{ sof.version }} }
+                  &mdash; {{ sof.anio }}
+                </p>
+                @if (sof.tecnologias?.length) {
+                  <p class="date">{{ sof.tecnologias?.join(' · ') }}</p>
+                }
                 <p>{{ sof.descripcion }}</p>
                 <p class="doi">{{ sof.registro }} &nbsp;|&nbsp; {{ sof.licencia }}</p>
               </div>

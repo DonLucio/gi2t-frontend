@@ -1,4 +1,5 @@
-import { Component, OnInit, Renderer2 } from '@angular/core';
+import { DOCUMENT } from '@angular/common';
+import { Component, inject, OnInit, Renderer2 } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 
 @Component({
@@ -8,6 +9,8 @@ import { Title } from '@angular/platform-browser';
   styleUrl: './investigadores.sass',
 })
 export class Investigadores implements OnInit {
+    private readonly document = inject(DOCUMENT);
+
     public users: any[] = [
       {
         'id': 1,
@@ -156,12 +159,11 @@ export class Investigadores implements OnInit {
 
             'software': [
               {
-                'name': 'emocioapp',
-                'derautor': 'Registro Derechos de Autor: 13-95-449',
-                'url': 'emocioapp.palnegocio.co'
+                'name': 'EMOCIOAPP',
+                'derautor': 'Registro Derechos de Autor: 13-95-449'
               },
               {
-                'name': 'Mandanga',
+                'name': 'MANDANGA',
                 'derautor': 'Registro Derechos de Autor: 13-22-462'
               },
             ]
@@ -362,12 +364,16 @@ export class Investigadores implements OnInit {
 
             'software': [
               {
-                'name': 'emocioapp',
-                'derautor': 'Registro Derechos de Autor: 13-95-449',
-                'url': 'emocioapp.palnegocio.co'
+                'name': 'ACUA DASHBOARD',
+                'derautor': 'Registro Derechos de Autor: 13-109-404',
+                'url': 'https://acua.gi2t.org/'
               },
               {
-                'name': 'Mandanga',
+                'name': 'EMOCIOAPP',
+                'derautor': 'Registro Derechos de Autor: 13-95-449'
+              },
+              {
+                'name': 'MANDANGA',
                 'derautor': 'Registro Derechos de Autor: 13-22-462'
               },
             ]
@@ -732,17 +738,23 @@ export class Investigadores implements OnInit {
           })),
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": window.location.href
+            "@id": "https://gi2t.org/investigadores"
           },
           "publishingPrinciples": user.produccion?.publicaciones?.map((p: any) => ({
             "@type": "CreativeWork",
             "headline": p.text,
             "url": p.url
+          })),
+          "owns": user.produccion?.software?.map((software: any) => ({
+            "@type": "SoftwareApplication",
+            "name": software.name,
+            "identifier": software.derautor,
+            ...(software.url ? { "url": software.url } : {})
           }))
         }))
       };
 
       script.text = JSON.stringify(jsonLd);
-      this.renderer2.appendChild(document.head, script);
+      this.renderer2.appendChild(this.document.head, script);
     }
 }

@@ -1,4 +1,5 @@
-import { Component, OnInit, Renderer2 } from '@angular/core';
+import { DOCUMENT } from '@angular/common';
+import { Component, inject, OnInit, Renderer2 } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 
 
@@ -9,6 +10,8 @@ import { Title } from '@angular/platform-browser';
   styleUrl: './semilleros.sass',
 })
 export class Semilleros  implements OnInit {
+  private readonly document = inject(DOCUMENT);
+
   public semilleros: any[] = [
     { id: 1	, nombre:"Adelina Congo Caicedo", email:"acongoc@unipacifico.edu.co", picture: true, year: 2023 },
     { id: 2	, nombre:"Andres Felipe Gongora Pineda", email:"afgongorap@unipacifico.edu.co", picture: true, year: 2023 },
@@ -115,7 +118,7 @@ export class Semilleros  implements OnInit {
     };
 
     script.text = JSON.stringify(jsonLd);
-    this.renderer2.appendChild(document.head, script);
+    this.renderer2.appendChild(this.document.head, script);
   }
 
   toggleShowAll() {
